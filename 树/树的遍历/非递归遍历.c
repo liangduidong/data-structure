@@ -158,11 +158,7 @@ int main(){
     Node *temp=root;
     Stack stack;
     stack.len=0;
-    while(temp!=NULL){
-            Push(&stack, temp);  // 如果有左子树,则左子树先入栈
-            printf("%c\n", temp->str);
-            temp=temp->lchild;
-        }
+
     // 三种遍历方式
     printTree(root);
     printf("\n---------------\n先序：");

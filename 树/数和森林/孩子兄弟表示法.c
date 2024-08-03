@@ -1,11 +1,11 @@
 #include<stdio.h>
 #include<stdlib.h>
 typedef struct node{
-    int data;
-    struct node *fistrchild,*nextchild;
-}Node,*childparentTree;
+    char str;
+    struct node *firstchild,*sibling;
+}Node,*csTree;
 
 int main(){
-    Node cstree;
-    
+    Node tree;
+    return 0;
 }
